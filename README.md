@@ -1,0 +1,1 @@
+# mnist_batchnorm_tensorflow

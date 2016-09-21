@@ -8,10 +8,6 @@ from tensorflow.python.ops import rnn_cell
 from tensorflow.contrib.layers import variance_scaling_initializer
 import numpy as np
 
-from tqdm import tqdm, tqdm_notebook
-
-from tensorflow.examples.tutorials.mnist import input_data
-
 WEIGHT_INITIALIZER = tf.contrib.layers.xavier_initializer()
 logger = logging.getLogger(__name__)
 
